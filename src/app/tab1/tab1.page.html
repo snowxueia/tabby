@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+     UMass BBS
+     </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+<ion-button expand="full" fill="clear" color="clear"  size="small" (click)="goToLogin()">Login</ion-button>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <img src="/assets/shave.jpg" alt="" />
+      <ion-card-header>
+        <ion-card-subtitle>Get Started</ion-card-subtitle>
+        <ion-card-title>Welcome to UMass BBS</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Welcome to UMass BBS, here is a place for you to share your beautiful life at University of Massachusetts Lowell.</p>
+      </ion-card-content>
+     
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Resources</ion-label>
+      </ion-list-header>
+      <ion-item href="https://www.uml.edu/CLASS/">
+        <ion-icon slot="start" color="medium" name="book"></ion-icon>
+        <ion-label>Academic Support</ion-label>
+      </ion-item>
+      <ion-item href="https://www.uml.edu/student-services/Student-Activities">
+        <ion-icon slot="start" color="medium" name="build"></ion-icon>
+        <ion-label>Student Activities & Leadership</ion-label>
+      </ion-item>
+      <ion-item href="https://www.uml.edu/student-services/reslife/">
+        <ion-icon slot="start" color="medium" name="grid"></ion-icon>
+        <ion-label>Residence Life</ion-label>
+      </ion-item>
+      <ion-item href="https://www.uml.edu/world-in-your-hands/">
+        <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+        <ion-label>World in Your Hands</ion-label>
+      </ion-item>
+      </ion-list>
+     
+</ion-content>
